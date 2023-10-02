@@ -21,6 +21,16 @@ namespace RubiksCubeSolver
             this.originalLocation = originalLocation;
         }
     }
+    public class Node
+    {
+        public Cube state { get; set; }
+        public string move { get; set; }
+        public Node(Cube state, string move)
+        {
+            this.state = state;
+            this.move = move;
+        }
+    }
     public enum Colour
     {
         W, G, O, B, R, Y, U
