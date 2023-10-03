@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 
 namespace RubiksCubeSolver
 {
-    // not sure that the cube is initialising properly
     internal class Program
     {
         static void Main(string[] args)
